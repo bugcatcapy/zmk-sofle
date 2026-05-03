@@ -132,13 +132,13 @@
             sensor-bindings = <&scroll_encoder>;
         };
 
-        layer_4 {
+        SYMBOL {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&kp  &kp GRAVE  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp            &kp          &kp  &kp  &kp       &kp           &kp        &kp  &kp
+&kp  &kp GRAVE  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp SEMICOLON  &kp COMMA    &kp  &kp  &kp       &kp UP_ARROW  &kp        &kp  &kp
+&kp  &kp        &kp                   &kp                    &kp            &kp          &kp  &kp  &kp LEFT  &kp DOWN      &kp RIGHT  &kp  &kp
+&kp  &kp        &kp                   &kp                    &kp            &kp          &kp  &kp  &kp       &kp           &kp        &kp  &kp
+&kp  &kp        &kp                   &kp                    &kp            &kp          &kp  &kp  &kp       &kp           &kp        &kp
             >;
         };
     };
