@@ -118,11 +118,11 @@
 
         cursor {
             bindings = <
-&kp  &kp  &kp  &kp  &kp  &kp    &kp  &kp          &kp          &kp           &kp            &kp         &kp
-&kp  &kp  &kp  &kp  &kp  &kp    &kp  &kp K_CUT    &kp LS(TAB)  &kp UP_ARROW  &kp TAB        &kp         &kp
-&kp  &kp  &kp  &kp  &kp  &kp    &kp  &kp K_COPY   &kp LEFT     &kp DOWN      &kp RIGHT      &kp K_FIND  &kp
-&kp  &kp  &kp  &kp  &kp  &kp    &kp  &kp K_PASTE  &kp HOME     &kp PAGE_UP   &kp PAGE_DOWN  &kp END     &kp
-&kp  &kp  &kp  &kp  &kp  &kp    &kp  &kp          &kp          &kp           &kp            &kp
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans       &trans       &trans        &trans         &trans      &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp K_CUT    &kp LS(TAB)  &kp UP_ARROW  &kp TAB        &trans      &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp K_COPY   &kp LEFT     &kp DOWN      &kp RIGHT      &kp K_FIND  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp K_PASTE  &kp HOME     &kp PAGE_UP   &kp PAGE_DOWN  &kp END     &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans       &trans       &trans        &trans         &trans
             >;
         };
 
