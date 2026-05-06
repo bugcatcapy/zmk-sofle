@@ -43,7 +43,7 @@
         bindings = <&kp>, <&kp>;
 
         #binding-cells = <2>;
-        tapping-term-ms = <200>;
+        tapping-term-ms = <300>;
         flavor = "tap-preferred";
         require-prior-idle-ms = <150>;
     };
@@ -82,11 +82,11 @@
 
         main {
             bindings = <
-&kp EQUAL   &kp N1           &kp N2           &kp N3               &kp N4             &kp N5         &kp UP_ARROW     &kp N6     &kp N7              &kp N8                &kp N9            &kp N0               &kp MINUS
-&kp TAB     &kp Q            &kp W            &kp E                &kp R              &kp T          &kp DOWN_ARROW   &kp Y      &kp U               &kp I                 &kp O             &kp P                &kp BSLH
-&kp CAPS    &hrm LEFT_GUI A  &hrm LEFT_ALT S  &hrm LEFT_CONTROL D  &hrm LEFT_SHIFT F  &kp G          &kp LEFT_ARROW   &kp H      &hrm RIGHT_SHIFT J  &hrm RIGHT_CONTROL K  &hrm RIGHT_ALT L  &hrm RIGHT_GUI SEMI  &kp APOS
-&kp LSHFT   &kp Z            &kp X            &kp C                &kp V              &kp B          &kp RIGHT_ARROW  &kp N      &kp M               &kp COMMA             &kp DOT           &kp FSLH             &kp RIGHT_SHIFT
-&kp C_MUTE  &kp ESCAPE       &kp LEFT         &kp RIGHT            &lt 1 SPACE        &lt 3 LCTRL    &kp ENTER        &kp ENTER  &lt 2 BACKSPACE     &tog 4                &tog 5            &kp GRAVE
+&kp EQUAL   &kp N1           &kp N2           &kp N3               &kp N4             &kp N5         &kp UP_ARROW     &kp N6       &kp N7              &kp N8                &kp N9            &kp N0               &kp MINUS
+&kp TAB     &kp Q            &kp W            &kp E                &kp R              &kp T          &kp DOWN_ARROW   &kp Y        &kp U               &kp I                 &kp O             &kp P                &kp BSLH
+&kp CAPS    &hrm LEFT_GUI A  &hrm LEFT_ALT S  &hrm LEFT_CONTROL D  &hrm LEFT_SHIFT F  &kp G          &kp LEFT_ARROW   &kp H        &hrm RIGHT_SHIFT J  &hrm RIGHT_CONTROL K  &hrm RIGHT_ALT L  &hrm RIGHT_GUI SEMI  &kp APOS
+&kp LSHFT   &kp Z            &kp X            &kp C                &kp V              &kp B          &kp RIGHT_ARROW  &kp N        &kp M               &kp COMMA             &kp DOT           &kp FSLH             &kp RIGHT_SHIFT
+&kp C_MUTE  &kp ESCAPE       &kp LEFT         &kp RIGHT            &lt 1 SPACE        &lt 3 LCTRL    &kp ENTER        &lt 2 ENTER  &kp BACKSPACE       &kp UP_ARROW          &kp DOWN          &tog 4
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
@@ -95,11 +95,11 @@
 
         number {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans   &trans  &trans     &trans  &trans     &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans   &kp N7  &kp N8     &kp N9  &trans     &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans   &kp N4  &kp N5     &kp N6  &kp MINUS  &kp PLUS
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans   &kp N1  &kp N2     &kp N3  &trans     &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp DOT  &kp N0  &kp COMMA  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp PIPE          &kp HASH  &kp DOLLAR  &kp CARET             &kp TILDE              &kp EXCLAMATION
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp GREATER_THAN  &kp N7    &kp N8      &kp N9                &kp COLON              &kp PERCENT
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp LESS_THAN     &kp N4    &kp N5      &kp N6                &kp MINUS              &kp PLUS
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp EQUAL         &kp N1    &kp N2      &kp N3                &kp SLASH              &kp ASTERISK
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp DOT           &kp N0    &kp COMMA   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
             >;
 
             display-name = "layer3";
